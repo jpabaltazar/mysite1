@@ -1,0 +1,223 @@
+/************************TAG SELECTORS********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  background-color: #f3f4ed;
+}
+
+div {
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 2.5rem;
+ color: #66BFBF;
+}
+
+h3 {
+ font-family: 'Montserrat', sans-serif;
+ color: #11999E;
+ font-weight: bolder;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-style: none;
+  border-color: #2b2e4a;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DF4659;
+}
+
+
+/************************CLASS SELECTORS********************/
+
+.top-container {
+  background-color: #e4f6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 200px;
+}
+
+.middle-container {
+
+}
+
+.profile {
+  margin: 50px auto;
+}
+
+.profile-picture {
+
+}
+.expertise {
+
+}
+
+.expertise-row {
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.retirement-icon {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.family-icon {
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.wealth-icon {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+ .e-description-1 {
+
+
+ }
+
+ .e-description-2 {
+
+ }
+
+ .e-description-3 {
+
+ }
+.contact-me{
+
+}
+
+.btn {
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   padding: 26px;
+   text-shadow: 1px 1px 13px #DF4659;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto;
+   padding: 15px;
+}
+
+.btn:hover {
+   border: solid #DD380D 0;
+   background: #DF4659;
+   background-image: -webkit-linear-gradient(top, #DF4659, #E76374);
+   background-image: -moz-linear-gradient(top, #DF4659, #E76374);
+   background-image: -ms-linear-gradient(top, #DF4659, #E76374);
+   background-image: -o-linear-gradient(top, #DF4659, #E76374);
+   background-image: -webkit-gradient(to bottom, #DF4659, #E76374);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   color: white;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px auto;
+  margin-bottom: 0;
+  height: 150px;
+  line-height: 2;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: auto 15px;
+  padding-top: 50px;
+}
+
+/************************ID SELECTORS********************/
+
+#profile-picture {
+  width: 200px;
+  height: 200px;
+}
+
+#subtitle {
+  font-weight: normal;
+}
+
+#bio {
+  width: 30%;
+  margin: auto;
+}
+#copyright {
+  color: #EAF6F6;
+  font-size: 0.80rem;
+}
+/************************COMMENTS********************/
+
+/****FONTS****/
+/*
+
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+
+*/
